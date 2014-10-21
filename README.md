@@ -13,7 +13,7 @@ A brief description of the classes is as follows:
 
 —RunNursery - used to launch the operation of the nursery.
 
-—InputOutput - provides sample data, that is loaded into the program automatically for demonstration purposes
+—InputOutput - this class is used to read customer, inventory and sales data in and out of serializable files. This data will be read in automatically each time the program starts and the updated data will overwrite prior data each time the program closes. Note: the program must be shut down as intended using the command in order to prevent data loss. The 3 files are initially populated with data provided by Professor Wolff for display purposes. 
 
 —MenuInfo - provides methods that service the menu options provided by RunNursery.
 

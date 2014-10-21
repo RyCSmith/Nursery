@@ -11,31 +11,31 @@ Overview: Program to run the fundamental operations of an agricultural nursery. 
 This program consists of 13 classes all contained within the package rsmithNurseryProject.
 A brief description of the classes is as follows:
 
-RunNursery - used to launch the operation of the nursery.
+—RunNursery - used to launch the operation of the nursery.
 
-InputOutput - provides sample data, that is loaded into the program automatically for demonstration purposes
+—InputOutput - provides sample data, that is loaded into the program automatically for demonstration purposes
 
-MenuInfo - provides methods that service the menu options provided by RunNursery.
+—MenuInfo - provides methods that service the menu options provided by RunNursery.
 
-MakeSale - provide items to take customer and product info and complete a sale.
+—MakeSale - provide items to take customer and product info and complete a sale.
 
-Sales - provides blueprint for Sales object. Implements Serializable.
+—Sales - provides blueprint for Sales object. Implements Serializable.
 
-Customer - provides the blueprint for a Customer object. Implements Comparable and Serializable for sorting.
+—Customer - provides the blueprint for a Customer object. Implements Comparable and Serializable for sorting.
 
-Inventory - abstract class for inventory items. Implements Comparable and Serializable for sorting.
+—Inventory - abstract class for inventory items. Implements Comparable and Serializable for sorting.
 
-Plants - abstract class that extends Inventory. Lays blueprint for Plant objects.
+—Plants - abstract class that extends Inventory. Lays blueprint for Plant objects.
 
-BulkProducts - extends Inventory. Lays blueprint for non-plant items.
+—BulkProducts - extends Inventory. Lays blueprint for non-plant items.
 
-Perennials - extends Plants. Provides blueprint for Perennial plant objects.
+—Perennials - extends Plants. Provides blueprint for Perennial plant objects.
 
-Trees - extends Plants. Provides blueprint for Tree plant objects.
+—Trees - extends Plants. Provides blueprint for Tree plant objects.
 
-Day - provides methods for tracking and assigning dates to sales.
+—Day - provides methods for tracking and assigning dates to sales.
 
-DayComparator - implements Comparator and used for arranging sales by date.
+—DayComparator - implements Comparator and used for arranging sales by date.
 
 
 
